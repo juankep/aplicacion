@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+
+/******* GENERAL RESET *******/
+html, body,  h2, h3,  pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td {
+    border:0pt none;
+    font-family:inherit;
+    font-size:100%;
+    font-style:inherit;
+    margin:0pt;
+    padding:0pt;
+    vertical-align:baseline;
+}
+body{
+    line-height: 0em;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0pt;
+}
+
+.clear{
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    line-height: 0;
+}
+.clearfix{
+    overflow: hidden;
+}
+.italic{
+    font-style: italic;
+}
+blockquote:before, blockquote:after, q:before, q:after{
+    content:"";
+}
+blockquote, q{
+    quotes:"" "";
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    padding: 7px 3px 0 4px;
+    font-size: 11px;
+}
+select{
+    font-size: 11px;
+    color: #888888;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #CAD2CE;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+    list-style-position: outside;
+}
+.clear{
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    line-height: 0;
+}
+/******* /GENERAL RESET *******/
+
+/******* GENERAL *******/
+
+h2{
+    line-height: 3em;
+    margin-top: 3px;
+	font-size: 20px;
+    margin-bottom: 2px;
+}
+.wrapper{
+    width: 32px;
+    margin: 0pt auto;
+    padding-top: 10px;
+}
+/******* /GENERAL *******/
+
+/******* MENU *******/
+#container{
+    margin:4em auto;
+    width:650;        /*ANCHO DEL CONTENEDOR*/
+}
+#container ul{
+    list-style:none;
+    list-style-position:outside;
+}
+#container ul.menu li{
+    float:left;
+    margin-right:8px;
+    margin-bottom:-1px;
+}
+#container ul.menu li{
+    font-weight:700;
+    display:block;
+    padding:10px 15px;
+    background:#303030;
+    margin-bottom:-1px;
+    border:1px solid #3e3e3e;
+    border-width:1px 1px 1px 1px;
+    position:relative;
+    color:#e4e1cd;
+    cursor:pointer;
+    border-radius:3px 3px 0 0;
+    -moz-border-radius:3px 3px 0 0;
+    -webkit-border-radius:3px 3px 0 0;
+}
+#container ul.menu li:hover{
+    color:#fff;
+}
+#container ul.menu li.active{
+    background:#171717;
+    top:1px;
+    border-bottom:0;
+    color:#fff;
+}
+/******* /MENU *******/
+
+/******* CONTENT *******/
+.content{
+    margin:0pt auto;
+    background:#efefef;
+    background:#171717;
+    border:1px solid #3e3e3e;
+    text-align:left;
+    padding:1.3em;
+    padding-bottom:20px;
+    font-size:12px;
+    line-height:2em;
+    color:#8C8C8C;
+    border-radius:0 5px 5px 5px;
+    -moz-border-radius:0 5px 5px 5px;
+    -webkit-border-radius:0 5px 5px 5px;
+}
+.content h3{
+    line-height:2em;
+    vertical-align:middle;
+    height:48px;
+    padding:10px 10px 10px 52px;
+    font-size:32px;
+}
+/******* /CONTENT *******/
+
+/******* NOTICIAS *******/
+.content.noticias h3{
+    background:transparent url(img/news.png) no-repeat scroll left top;
+}
+.content.noticias{
+    display:block;
+}
+/******* /NOTICIAS *******/
+
+/******* TUTORIALES *******/
+.content.tutoriales h3{
+    background:transparent url(img/tuts.png) no-repeat scroll left top;
+}
+.content.tutoriales{
+    display:none;
+}
+/******* /TUTORIALES *******/
+
+/******* ENLACES *******/
+.content.enlaces h3{
+    background:transparent url(img/links.png) no-repeat scroll left top;
+}
+.content.enlaces{
+    display:none;
+}
+/******* /REPORTE *******/
+.content.reportes h3{
+    background:transparent url(img/links.png) no-repeat scroll left top;
+}
+.content.reportes{
+    display:none;
+}

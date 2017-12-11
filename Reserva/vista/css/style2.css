@@ -1,0 +1,130 @@
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, tr, td {margin:0; padding:0;}
+img {border:0;}
+a {text-decoration:none;}
+ol, ul {list-style:none;}
+
+/* Elementos basicos */
+
+body {
+	background:#eff4f4;
+	color:#333;
+	font-family:"Lucida Grande", Arial, Verdana;
+	font-size:12px;
+	}
+a {color:#333;}
+p {margin-bottom:20px;}
+	
+/* Plantilla Basica */
+
+#pagina {
+	width:960px;
+	margin:2px auto;
+	overflow:hidden;
+	height:100%;
+	background:#FFF url(../imagenes/bg-pagina.gif) repeat-y;	
+	border:1px solid #E7E7E7;
+	}
+	#menu, #contenido {
+		float:left;
+		display:inline;
+		}
+		#menu {
+			width:300px;
+			margin-bottom:20px;
+			border-right:1px solid #E7E7E7;
+			}
+		#contenido {
+			width:609px;
+			padding:20px 25px;
+			}
+	
+	/* Contenido de #menu */	
+	
+	#menu h3{
+		font-family:"Myriad Pro", Verdana, Arial;
+		font-size:28px;
+		font-style:italic;
+		font-weight:bold;
+		padding:10px 20px;
+		letter-spacing:-1px;
+		color:#ebf1f1;
+		background:#333;
+		text-shadow:#000 0px -2px 0px;
+		}
+	#menu ul li span {
+		padding:0px;
+		display:block;
+		background:#ebf1f1 url(../imagenes/nav.gif) repeat-x 0 0;
+		border-bottom:1px solid #E7E7E7;
+		border-top:1px solid #FFF;
+		font-size:10px;
+		}	
+	#menu ul li span a {
+		font-family:Arial;
+		font-weight:bold;
+		font-size:18px;
+		letter-spacing:-1px;
+		background-position:15px 12px;
+		background-repeat:no-repeat;
+		color:#a0a9a9;		
+		text-shadow:#FFF 0px 1px 0px;
+		padding:15px 10px 15px 60px;
+		display:block;			
+		}
+		#menu ul li span a:hover {
+			color:#7b8585;
+			}
+		#menu ul li span.open a {
+			color:#333;
+			}
+	#menu ul li span a#link-inicio {
+		background-image:url(../imagenes/arrow_right_16.png);					
+		}
+	#menu ul li span a#link-posts {
+		background-image:url(../imagenes/page_text_32.png);					
+		}
+	#menu ul li span a#link-categorias {
+		background-image:url(../imagenes/folder_32.png);					
+		}
+	#menu ul li span a#link-usuarios {
+		background-image:url(../imagenes/users_32.png);					
+		}
+	
+	#menu ul li span a#link-informacion {
+		background-image:url(../imagenes/alumnoAdmon.gif);					
+		}
+	#menu ul li span a#link-contactos {
+		background-image:url(../imagenes/sample_slides/thumb_iphone.png);					
+		}
+	#menu ul li span a#link-ayuda {
+		background-image:url(../imagenes/ico_interrogacion.gif);					
+		}	
+	#menu ul li ul{
+		margin-bottom:0px;
+		}	
+		#menu ul li ul li a {
+			display:block;
+			color:#444;
+			font-weight:bold;
+			padding:11px 10px 11px 60px;
+			background-position:25px 11px;
+			background-repeat:no-repeat;
+			background-color:#f1f5f5;
+			border-bottom:1px solid #E7E7E7;
+			border-top:1px solid #FFF;
+			}
+		#menu ul li ul li a:hover {
+			color:black;
+			}
+		
+		#menu ul li ul li a.add {
+			background-image:url(../imagenes/add_16.png);
+			}
+		#menu ul li ul li a.list {
+			background-image:url(../imagenes/arrow_right_16.png);
+			}
+		#menu ul li ul li a.bullet {
+			background-image:url(../imagenes/bullet_blue.png);
+			}
